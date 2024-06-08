@@ -1,0 +1,66 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #d5c2c2;
+}
+
+.container {
+    text-align: center;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 20vw
+}
+
+.display {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.buttons button {
+    font-size: 1em;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+#startPauseButton {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#resetButton {
+    background-color: #f44336;
+    color: white;
+}
+
+#lapButton {
+    background-color: #008CBA;
+    color: white;
+}
+
+.buttons button:hover {
+    opacity: 0.8;
+}
+
+.laps {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.laps li {
+    padding: 10px;
+    background: #c3baba;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
